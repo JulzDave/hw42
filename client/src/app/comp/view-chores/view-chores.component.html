@@ -1,0 +1,34 @@
+<button class="addChoresBtn" (click)="addChores()">Add more chores!</button>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<div class="contOflistedChoresCont">
+<div class="listedChoresCont">
+  <h2>All Mother's chores</h2>
+  <br>
+  <ul *ngFor="let motherChore of allMotherChores" class="listedChores">
+    <li>{{motherChore}}</li>
+  </ul>
+</div>
+<div class="listedChoresCont">
+  <h2>All Father's chores</h2>
+  <br>
+  <ul *ngFor="let fatherChore of allFatherChores" class="listedChores">
+    <li>{{fatherChore}}</li>
+  </ul>
+  </div>
+  <div class="listedChoresCont">
+    <h2>All Big Brothers' chores</h2>
+    <br>
+  <ul *ngFor="let bBrother of allBBrotherChores" class="listedChores">
+    <li>{{bBrother}}</li>
+  </ul>
+  </div>
+  <div class="listedChoresCont">
+    <h2>All Little Brothers' chores</h2>
+    <br>
+  <ul *ngFor="let lBrother of allLBrotherChores" class="listedChores">
+    <li>{{lBrother}}</li>
+  </ul>
+</div>
+</div>

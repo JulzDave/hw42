@@ -1,0 +1,30 @@
+
+<div>
+  <div id="editCCont">
+    <div class="fMember" id="Mother">
+      <h2 class="fMemberHead">Mom</h2><br />
+      <span class="choreInp">Insert new chore:<br /><br /><input type="text" name="M_chore" [(ngModel)]="Mother" /><br /><br /><button
+          class="choreSub" (click)="submitChore($event)">Submit</button></span>
+    </div>
+    <div class="fMember" id="Father">
+      <h2 class="fMemberHead">Dad</h2><br />
+      <span class="choreInp">Insert new chore:<br /><br /><input type="text" name="F_chore" [(ngModel)]="Father" /><br /><br /><button
+          class="choreSub" (click)="submitChore($event)">Submit</button></span>
+    </div>
+    <div class="fMember" id="BigBrother">
+      <h2 class="fMemberHead">Big Brother</h2><br />
+      <span class="choreInp">Insert new chore:<br /><br /><input type="text" name="B_chore" [(ngModel)]="BigBrother" /><br /><br /><button
+          class="choreSub" (click)="submitChore($event)">Submit</button></span>
+    </div>
+    <div class="fMember" id="LittleBrother">
+      <h2 class="fMemberHead">Little Brother</h2><br />
+      <span class="choreInp">Insert new chore:<br /><br /><input type="text" name="L_chore" [(ngModel)]="LittleBrother" /><br /><br /><button
+          class="choreSub" (click)="submitChore($event)">Submit</button></span>
+    </div>
+  </div>
+  <div id="viewChores" (click)="allchores()">
+    <div class="arrow_box">
+      <p id="arrowTxt">View family chores</p>
+    </div>
+  </div>
+</div>

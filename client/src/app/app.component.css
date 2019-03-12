@@ -1,0 +1,8 @@
+#editCHeader{
+    text-align: center;
+    color: crimson;
+    background: gold;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 3px brown;
+    letter-spacing: 20px;
+}

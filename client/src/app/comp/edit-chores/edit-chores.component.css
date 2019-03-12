@@ -1,0 +1,108 @@
+
+#editCCont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    flex-wrap: wrap;
+}
+
+.fMember{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background: white;
+    margin-top:50px;
+}
+
+.fMemberHead{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: 1px 7px 20px cornflowerblue;
+}
+
+.choreInp{
+    position: relative;
+    left: 15%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.choreSub{
+    border: 3px solid orangered;
+    outline: none;
+    background: darkorange;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.choreSub:hover{
+    background: rgb(192, 106, 0);
+}
+
+.choreSub:active{
+    background:rgba(255, 140, 0, 0.685);
+}
+
+
+#viewChores{
+    width: 248px;
+    height: 140px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+    border: 4px solid #c2e1f5;
+    zoom: 0.4;
+    height: -webkit-fill-available;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #88b7d5;
+	border-width: 150px;
+	margin-top: -150px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #c2e1f5;
+	border-width: 156px;
+	margin-top: -156px;
+}
+
+#arrowTxt{
+    zoom: 4;
+    text-align: center;
+    margin-top: 32px;
+    font-family: sans-serif;
+    color: antiquewhite;
+    -webkit-text-stroke: 1px aliceblue;
+    text-shadow: 0 0 20px black;
+}
+
+#arrowTxt:hover{
+    color:black;
+    -webkit-text-stroke: 1px brown;
+}
